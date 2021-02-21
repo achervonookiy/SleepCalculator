@@ -31,6 +31,8 @@
             this.comboBoxHourSleep = new System.Windows.Forms.ComboBox();
             this.comboBoxMinSleep = new System.Windows.Forms.ComboBox();
             this.buttonSend = new System.Windows.Forms.Button();
+            this.textBoxIp = new System.Windows.Forms.TextBox();
+            this.labelUserName = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // comboBoxHourSleep
@@ -65,7 +67,6 @@
             this.comboBoxHourSleep.Name = "comboBoxHourSleep";
             this.comboBoxHourSleep.Size = new System.Drawing.Size(83, 23);
             this.comboBoxHourSleep.TabIndex = 1;
-            this.comboBoxHourSleep.SelectedIndexChanged += new System.EventHandler(this.comboBoxHourSleep_SelectedIndexChanged);
             // 
             // comboBoxMinSleep
             // 
@@ -96,18 +97,38 @@
             this.buttonSend.TabIndex = 2;
             this.buttonSend.Text = "Enter";
             this.buttonSend.UseVisualStyleBackColor = true;
+            this.buttonSend.Click += new System.EventHandler(this.buttonSend_Click);
+            // 
+            // textBoxIp
+            // 
+            this.textBoxIp.Location = new System.Drawing.Point(204, 55);
+            this.textBoxIp.Name = "textBoxIp";
+            this.textBoxIp.Size = new System.Drawing.Size(105, 23);
+            this.textBoxIp.TabIndex = 3;
+            // 
+            // labelUserName
+            // 
+            this.labelUserName.AutoSize = true;
+            this.labelUserName.Location = new System.Drawing.Point(135, 58);
+            this.labelUserName.Name = "labelUserName";
+            this.labelUserName.Size = new System.Drawing.Size(69, 15);
+            this.labelUserName.TabIndex = 4;
+            this.labelUserName.Text = "User name: ";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.labelUserName);
+            this.Controls.Add(this.textBoxIp);
             this.Controls.Add(this.buttonSend);
             this.Controls.Add(this.comboBoxMinSleep);
             this.Controls.Add(this.comboBoxHourSleep);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -116,6 +137,8 @@
         private System.Windows.Forms.ComboBox comboBoxHourSleep;
         private System.Windows.Forms.ComboBox comboBoxMinSleep;
         private System.Windows.Forms.Button buttonSend;
+        private System.Windows.Forms.TextBox textBoxIp;
+        private System.Windows.Forms.Label labelUserName;
     }
 }
 

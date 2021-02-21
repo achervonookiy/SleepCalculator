@@ -9,7 +9,14 @@ C:\Users\student\Desktop\SleepCalculator\Client\obj\Debug\netcoreapp3.1\Client.F
 C:\Users\student\Desktop\SleepCalculator\Client\obj\Debug\netcoreapp3.1\Client.csproj.GenerateResource.cache
 C:\Users\student\Desktop\SleepCalculator\Client\obj\Debug\netcoreapp3.1\Client.AssemblyInfoInputs.cache
 C:\Users\student\Desktop\SleepCalculator\Client\obj\Debug\netcoreapp3.1\Client.AssemblyInfo.cs
-C:\Users\student\Desktop\SleepCalculator\Client\obj\Debug\netcoreapp3.1\Client.csproj.CoreCompileInputs.cache
 C:\Users\student\Desktop\SleepCalculator\Client\obj\Debug\netcoreapp3.1\Client.dll
 C:\Users\student\Desktop\SleepCalculator\Client\obj\Debug\netcoreapp3.1\Client.pdb
 C:\Users\student\Desktop\SleepCalculator\Client\obj\Debug\netcoreapp3.1\Client.genruntimeconfig.cache
+C:\Users\student\Desktop\SleepCalculator\Client\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\student\Desktop\SleepCalculator\Client\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\student\Desktop\SleepCalculator\Client\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\student\Desktop\SleepCalculator\Client\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\student\Desktop\SleepCalculator\Client\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\student\Desktop\SleepCalculator\Client\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\student\Desktop\SleepCalculator\Client\obj\Debug\netcoreapp3.1\Client.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\SleepCalculator\Client\obj\Debug\netcoreapp3.1\Client.csproj.CopyComplete
